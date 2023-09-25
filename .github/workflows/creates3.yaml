@@ -28,6 +28,4 @@ jobs:
         run: terraform apply --auto-approve
       - name: Delete bucket
         run: terraform destroy --auto-approve
-        #
-        #
         
